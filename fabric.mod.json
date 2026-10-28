@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "swordbelt",
+  "version": "${version}",
+  "name": "Sword Belt",
+  "description": "Zeigt deine Schwerter wie an einem Gürtel an der Hüfte - auch wenn du sie nicht in der Hand hältst.",
+  "authors": ["du"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.swordbelt.SwordBelt"],
+    "client": ["com.swordbelt.client.SwordBeltClient"]
+  },
+  "mixins": ["swordbelt.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

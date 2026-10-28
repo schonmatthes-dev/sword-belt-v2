@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.swordbelt.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["PlayerEntityRendererMixin", "PlayerEntityRenderStateMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
